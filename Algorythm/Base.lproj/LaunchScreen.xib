@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtt-oP-3wN">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNf-T3-aYV">
+                    <rect key="frame" x="0.0" y="240" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="E1I-WY-MM2">
+                    <rect key="frame" x="180" y="180" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="Boe-Ug-iT5"/>
+                        <constraint firstAttribute="height" constant="120" id="gnj-ID-eNK"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Rtt-oP-3wN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EUV-t5-qLX"/>
+                <constraint firstItem="fNf-T3-aYV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Mrt-C7-1s4"/>
+                <constraint firstItem="Rtt-oP-3wN" firstAttribute="height" secondItem="fNf-T3-aYV" secondAttribute="height" id="N2h-gb-y4x"/>
+                <constraint firstItem="Rtt-oP-3wN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Van-rj-9tq"/>
+                <constraint firstItem="Rtt-oP-3wN" firstAttribute="width" secondItem="fNf-T3-aYV" secondAttribute="width" id="XRv-Zf-CgR"/>
+                <constraint firstAttribute="centerY" secondItem="E1I-WY-MM2" secondAttribute="centerY" id="anC-nW-T5B"/>
+                <constraint firstAttribute="trailing" secondItem="Rtt-oP-3wN" secondAttribute="trailing" id="dXn-Qp-fCy"/>
+                <constraint firstItem="fNf-T3-aYV" firstAttribute="top" secondItem="Rtt-oP-3wN" secondAttribute="bottom" id="fMH-aY-6bz"/>
+                <constraint firstAttribute="centerX" secondItem="E1I-WY-MM2" secondAttribute="centerX" id="seT-3y-Pt0"/>
+                <constraint firstAttribute="trailing" secondItem="fNf-T3-aYV" secondAttribute="trailing" id="tRP-9F-XPS"/>
+                <constraint firstAttribute="bottom" secondItem="fNf-T3-aYV" secondAttribute="bottom" id="vIN-4j-EFk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
+</document>
